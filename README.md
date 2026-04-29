@@ -1,59 +1,104 @@
-# FlashcardsApp
+# 🃏 Flash Cards App
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.8.
+App de flashcards com perguntas e respostas comuns em entrevistas de JavaScript e Angular.
 
-## Development server
+[![Projeto Roadmap.sh](https://img.shields.io/badge/Projeto-roadmap.sh-blue?style=flat-square&logo=roadmap.sh)](https://roadmap.sh/projects/flash-cards)
+[![Angular](https://img.shields.io/badge/Angular-21-dd0031?style=flat-square&logo=angular)](https://angular.dev)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 
-To start a local development server, run:
+## 📋 Sobre o Projeto
+
+Este projeto faz parte do [roadmap.sh](https://roadmap.sh) e tem como objetivo praticar **gerenciamento de estado** e **arquitetura baseada em componentes** usando frameworks JavaScript.
+
+O app possui 21 flashcards com perguntas e respostas frequentes em entrevistas técnicas sobre JavaScript e Angular. O usuário pode navegar entre os cards, revelar/ocultar as respostas e acompanhar o progresso através de uma barra de progresso.
+
+**🔗 Página do projeto:** [roadmap.sh/projects/flash-cards](https://roadmap.sh/projects/flash-cards)
+
+**🌐 Site:** [viniloppes.github.io/FlashcardsApp](https://viniloppes.github.io/FlashcardsApp)
+
+**👤 Autor:** [Vinicius Lopes](https://github.com/viniloppes)
+
+## 📸 Screenshots
+
+| Pergunta | Resposta | Última Questão |
+| :---: | :---: | :---: |
+| ![Pergunta](src/assets/screenshots/p1-hide.jpeg) | ![Resposta](src/assets/screenshots/p1-show.jpeg) | ![Última questão](src/assets/screenshots/p21.jpeg) |
+
+## ✨ Funcionalidades
+
+- 📖 21 flashcards com perguntas de entrevistas (JavaScript & Angular)
+- 🔄 Flip para revelar/ocultar a resposta
+- ⬅️➡️ Navegação entre cards (Previous / Next)
+- 📊 Barra de progresso com porcentagem
+- 🔢 Contador de cards (ex: 1 of 21)
+- ⚡ Arquitetura zoneless com Signals para gerenciamento de estado
+
+## 🛠️ Tecnologias
+
+- **Framework:** Angular 21
+- **Linguagem:** TypeScript 5.9
+- **Estilização:** Tailwind CSS 4 + CSS customizado
+- **State Management:** Angular Signals
+- **Fonte:** Pangolin (Adobe Fonts)
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+
+- [Node.js](https://nodejs.org) (v20+)
+- [Angular CLI](https://angular.dev/tools/cli) (v21+)
+
+### Instalação
+
+```bash
+# Clone o repositório
+git clone https://github.com/viniloppes/FlashcardsApp.git
+
+# Entre no diretório
+cd FlashcardsApp
+
+# Instale as dependências
+npm install
+```
+
+### Servidor de Desenvolvimento
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Abra o navegador em `http://localhost:4200/`. O app recarrega automaticamente ao modificar qualquer arquivo.
 
-## Code scaffolding
-
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### Build de Produção
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Os artefatos de build serão salvos no diretório `dist/`.
 
-## Running unit tests
+## 📁 Estrutura do Projeto
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
-
-```bash
-ng test
+```
+src/
+├── app/
+│   ├── decks/
+│   │   ├── deck-card/          # Componente do card (pergunta/resposta)
+│   │   ├── deck-list/          # Componente principal com lógica e navegação
+│   │   └── deck-progress-bar/  # Barra de progresso
+│   ├── app.ts                  # Componente raiz
+│   └── app.module.ts           # Módulo principal
+├── assets/
+│   └── screenshots/            # Screenshots do app
+└── styles.css                  # Estilos globais + Tailwind
 ```
 
-## Running end-to-end tests
+## 📅 Data de Criação
 
-For end-to-end (e2e) testing, run:
+28 de Abril de 2026
 
-```bash
-ng e2e
-```
+---
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+<p align="center">
+  Feito por <a href="https://github.com/viniloppes">Vinicius Lopes</a> como parte do <a href="https://roadmap.sh">roadmap.sh</a>
+</p>
