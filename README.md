@@ -20,9 +20,14 @@ O app possui 21 flashcards com perguntas e respostas frequentes em entrevistas t
 
 ##  Screenshots
 
-| Pergunta | Resposta | Última Questão |
-| :---: | :---: | :---: |
-| ![Pergunta](src/assets/screenshots/p1-hide.jpeg) | ![Resposta](src/assets/screenshots/p1-show.jpeg) | ![Última questão](src/assets/screenshots/p21.jpeg) |
+1. Pergunta (Show Answer)
+<img src="src/assets/screenshots/p1-hide.jpeg" alt="Question flashcard" width="700" height="325">
+
+2. Resposta (Hide Answer)
+<img src="src/assets/screenshots/p1-show.jpeg" alt="Answer flashcard" width="700" height="325">
+
+3. Ultima Questão
+<img src="src/assets/screenshots/p21.jpeg" alt="Last flashcard" width="700" height="325">
 
 ##  Funcionalidades
 
