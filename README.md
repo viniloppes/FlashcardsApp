@@ -67,15 +67,12 @@ npm install
 ng serve
 ```
 
-Abra o navegador em `http://localhost:4200/`. O app recarrega automaticamente ao modificar qualquer arquivo.
-
 ### Build de Produção
 
 ```bash
 ng build
 ```
 
-Os artefatos de build serão salvos no diretório `dist/`.
 
 ## 📁 Estrutura do Projeto
 
