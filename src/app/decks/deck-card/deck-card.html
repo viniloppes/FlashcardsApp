@@ -1,0 +1,7 @@
+<div class="card-body rounded-md bg-neutral-100">
+    @if (showingAnswer()) {
+    <p class="card-text answer-text">{{ answer() }}</p>
+    } @else {
+    <h3 class="card-text question-text">{{ question() }}</h3>
+    }
+</div>

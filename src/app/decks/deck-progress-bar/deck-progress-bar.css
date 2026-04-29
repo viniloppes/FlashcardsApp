@@ -1,0 +1,35 @@
+.progress-wrapper {
+    margin-bottom: 12px;
+}
+
+
+.progress-track {
+    flex: 0 0 auto;
+    width: 140px;
+    height: 22px;
+    background: #e8e8e8;
+    border-radius: 6px;
+    overflow: hidden;
+    border: 2px solid #c0c0c0;
+    padding: 3px;
+}
+
+.progress-fill {
+
+    transition: width 0.4s ease;
+}
+
+.progress-pct {
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    white-space: nowrap;
+}
+
+.progress-count {
+    margin-left: auto;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a1a1a;
+    white-space: nowrap;
+}

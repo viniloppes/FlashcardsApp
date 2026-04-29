@@ -1,0 +1,13 @@
+<div class="progress-wrapper">
+    <span class="progress-count flex justify-end">{{current()}} of {{total()}}</span>
+    <div class="progress-row p-2 border-2 border-neutral-300 rounded-md">
+        <div class="progress-fill h-px-40 bg-neutral-300 p-2 rounded-md text-right" [style.width]="percentage() + '%'">
+            <span class="text-right text-sm font-bold">{{percentage()}}%</span>
+
+        </div>
+        <!-- <div class="progress-track">
+            <div class="progress-fill" ></div>
+        </div> -->
+
+    </div>
+</div>

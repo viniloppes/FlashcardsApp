@@ -1,0 +1,33 @@
+<div class="flashcard-container h-screen flex items-center justify-center">
+
+    <div class="flex flex-col mx-auto w-full max-w-lg">
+        <h2 class="flashcard-title">Flash Cards</h2>
+
+        <app-deck-progress-bar [percentage]="percentage()" [current]="currentIndex() + 1" [total]="totalCards()">
+        </app-deck-progress-bar>
+
+        <div class="p-2 rounded-lg border-2 border-neutral-300 bg-white">
+
+            <app-deck-card [question]="currentCard().question" [answer]="currentCard().answer"
+                [showingAnswer]="showingAnswer()">
+            </app-deck-card>
+
+            <div class="card-nav rounded-md bg-neutral-100 mt-2 p-2">
+                <button class="nav-btn" [class.disabled]="currentIndex() === 0" (click)="onPrevious()">
+                    &lsaquo; Previous
+                </button>
+
+                <button class="nav-btn toggle-btn" (click)="onToggleAnswer()">
+                    {{ showingAnswer() ? 'Hide Answer' : 'Show Answer' }}
+                </button>
+
+                <button class="nav-btn" [class.disabled]="currentIndex() === totalCards() - 1" (click)="onNext()">
+                    Next &rsaquo;
+                </button>
+            </div>
+        </div>
+    </div>
+
+
+
+</div>

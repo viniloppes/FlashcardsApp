@@ -1,0 +1,25 @@
+.card-body {
+
+    padding: 48px 32px;
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.card-text {
+    color: #1a1a1a;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.question-text {
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.answer-text {
+    font-size: 1.05rem;
+    font-weight: 600;
+}
