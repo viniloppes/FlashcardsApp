@@ -1,4 +1,4 @@
-# 🃏 Flash Cards App
+# Flash Cards App
 
 App de flashcards com perguntas e respostas comuns em entrevistas de JavaScript e Angular.
 
@@ -6,7 +6,7 @@ App de flashcards com perguntas e respostas comuns em entrevistas de JavaScript 
 [![Angular](https://img.shields.io/badge/Angular-21-dd0031?style=flat-square&logo=angular)](https://angular.dev)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-4-38bdf8?style=flat-square&logo=tailwindcss)](https://tailwindcss.com)
 
-## 📋 Sobre o Projeto
+## Sobre o Projeto
 
 Este projeto faz parte do [roadmap.sh](https://roadmap.sh) e tem como objetivo praticar **gerenciamento de estado** e **arquitetura baseada em componentes** usando frameworks JavaScript.
 
@@ -18,22 +18,22 @@ O app possui 21 flashcards com perguntas e respostas frequentes em entrevistas t
 
 **👤 Autor:** [Vinicius Lopes](https://github.com/viniloppes)
 
-## 📸 Screenshots
+##  Screenshots
 
 | Pergunta | Resposta | Última Questão |
 | :---: | :---: | :---: |
 | ![Pergunta](src/assets/screenshots/p1-hide.jpeg) | ![Resposta](src/assets/screenshots/p1-show.jpeg) | ![Última questão](src/assets/screenshots/p21.jpeg) |
 
-## ✨ Funcionalidades
+##  Funcionalidades
 
-- 📖 21 flashcards com perguntas de entrevistas (JavaScript & Angular)
+- 21 flashcards com perguntas de entrevistas (JavaScript & Angular)
 - 🔄 Flip para revelar/ocultar a resposta
 - ⬅️➡️ Navegação entre cards (Previous / Next)
-- 📊 Barra de progresso com porcentagem
-- 🔢 Contador de cards (ex: 1 of 21)
-- ⚡ Arquitetura zoneless com Signals para gerenciamento de estado
+- Barra de progresso com porcentagem
+- Contador de cards (ex: 1 of 21)
+- Arquitetura zoneless com Signals para gerenciamento de estado
 
-## 🛠️ Tecnologias
+## Tecnologias
 
 - **Framework:** Angular 21
 - **Linguagem:** TypeScript 5.9
@@ -41,7 +41,7 @@ O app possui 21 flashcards com perguntas e respostas frequentes em entrevistas t
 - **State Management:** Angular Signals
 - **Fonte:** Pangolin (Adobe Fonts)
 
-## 🚀 Como Executar
+## Como Executar
 
 ### Pré-requisitos
 
@@ -93,7 +93,7 @@ src/
 └── styles.css                  # Estilos globais + Tailwind
 ```
 
-## 📅 Data de Criação
+## Data de Criação
 
 28 de Abril de 2026
 
